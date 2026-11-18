@@ -1,0 +1,6 @@
+case,solver,heuristic,support_budget,wall_seconds,status,search_nodes,completed_blocks,peak_rss_kib
+budget20_prior,block MITM,clique3,20,300.0068,LIMIT,21992452096,1,
+budget25,block MITM,clique3,25,77.46000000000001,COMPLETE,4549624938,4,1902336
+budget25_repeat,block MITM,clique3,25,75.43,COMPLETE,4549624938,4,1902208
+budget25_breakdown,block MITM,clique3,25,75.65,COMPLETE,4549624938,4,1902208
+pivoter_official,original Pivoter,,0,106.46000000000001,COMPLETE,,,4400
