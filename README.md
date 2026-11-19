@@ -167,7 +167,7 @@ These policies are distinct. In particular, `clique3` does *not* simply select t
 
 ### 4.4. Time, space, and compact rows
 
-For a block of size $`k`$, the standard implementation stores $`(k+1)2^k`$ 32-bit polynomial coefficients, even though a mask of size $`r`$ cannot contain a clique larger than $`r`$. The compact variant uses an offsets array and gives each mask only $`1+\operatorname{popcount}(M)`$ slots. Its total coefficient count is exactly
+For a block of size $`k`$, the standard implementation stores $`(k+1)2^k`$ 32-bit polynomial coefficients, even though a mask of size $`r`$ cannot contain a clique larger than $`r`$. The compact variant uses an offsets array and gives each mask only $`1+|M|`$ slots. Its total coefficient count is exactly
 
 ```math
 \sum_{M\subseteq S}(1+|M|)=2^k+k2^{k-1}.
